@@ -34,10 +34,10 @@
   --line-height-normal: 1.7;
   --line-height-small: 1.2;
 
-  --black: #000;
-  --pink: #ff3258;
-  --white: #f0e9f2;
-  --white-1: #e5e5e6da;
+  --black: #ffffff;
+  --pink: #b25d5d;
+  --white: #000000;
+  --white-1: #000000da;
 
   --container-max-width: 1180px;
   --container-normal-width: 800px;
@@ -404,17 +404,18 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./images/header.jpg");
+    url("./images/header2.jpg");
   height: 100vh;
   background-size: cover;
-  background-position: 0% 35%;
+  background-position: 0% 0%;
   background-attachment: fixed;
   font-size: var(--font-size-normal);
 }
 
 .header__text {
   position: absolute;
-  top: 50%;
+  top: 54%;
+  left: 40%;
   transform: translateY(-50%);
 }
 
