@@ -517,6 +517,7 @@ body:not(.user-is-tabbing) a:focus {
   display: flex;
   justify-content: space-between;
   /* filter: invert(100%) grayscale(80%) opacity(1); */
+  height: 15rem;
 }
 
 .client__logo {
